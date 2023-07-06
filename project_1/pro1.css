@@ -1,154 +1,375 @@
-#head{
-  background-color: #F5F5F5;
-
-
-}
-button{
-    font-size: x-large;
-    font-weight: bold;
-    background-color: #3F2305;
-    color:#F2EAD3 ;
-    border: gold;
-    border-radius: 5px;
-    transition-duration: 0.3s;
-
-}
-button:hover{
-    background-color: #1e9bc5;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
-}
-
 body{
-    width: 90% ;
-    margin: 0 auto;
-    
+    background-color: black;
 }
-.logo{
-    font-size: xx-large;
-    font-weight: bold;
-    margin-top: 70%;
-    color: #1e9bc5;
-}
-
 #sec1{
+    width:100%;
+    background-color:rgb(59, 57, 55);
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
+    justify-content: center;
     justify-content: space-around;
-     justify-content: space-evenly; 
-}
-#sec2{
-    display: flex;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    background-color: #F2EAD3;
-    margin-top: 3%;
-   
-
-}
-#div1{
-
+    
 }
 main{
-    background-color: #DFD7BF;
+    margin-top: 5%;
 }
-#div2{
-    color: #1e9bc5;
+#logo{
+ 
+   border-radius: 10px;
+   width: 8%;
+   height:8%;
+}
+#logoimg{
 
-}
-#sec3{
-    text-align: center;
-    margin-top: 6%;
-    background-color: #DFD7BF;
-    color: #1e9bc5;
     width: 100%;
-    
+    height: 100%;
 }
-#art1{
+#nav{
+    margin-top: 1.5%;
+    font-size: xx-large;
+    /* font-weight: bold; */
+}
+#home{
     display: flex;
+    width: 100%;
+    justify-content: center;
     justify-content: space-around;
-    justify-content: space-evenly;
-    margin-top: 3%;
+    
+}
 
-}
-#msec{
-    background-color: #DFD7BF;
+#divimg{
+    display: inline;
+    margin-left: 5%;
     
-}
-.imge{
-    width: 100px;
-    height: 100px;
-    padding: 20%;
-    
-    
-}
-#div3{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    margin-top: 3%;
-    
-}
-#sec4{
-    text-align: center;
-    background-color: #DFD7BF;
-    color: #1e9bc5;
-
    
+
+}
+
+#divme{
+    color:silver;
+    margin-top: 5%;
+    font-weight: bold;
+
+
+}
+#myimg{
+    width: 100%;
+    height: 100%;
 }
 
 #hr1{
+
+    color: white;
+    border: solid 3px ;
     width: 70%;
-    border: 2px solid ;
-    color: #DFD7BF;
 }
+    
 
-#hr2{
-    width: 75%;
-    border: 2px solid ;
-    color: #F5F5F5;
-}
-#hr3{
-    width: 11%;
-    border: 2px solid ;
-    color: #F5F5F5;
-
-}
-#fotr{
-    background-color: #3F2305;
-}
-#div4{
+#Education{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%; 
     text-align: center;
-    color: #7cdeff;
-}
-.flogo{
-    font-size: xx-large;
-    padding: 1%;
+    color: silver;
+
+
 }
 
-#sec5{
+#unvimg{
     text-align: center;
-    margin-top: 6%;
-    background-color: #DFD7BF;
-    color: #1e9bc5;
-    width: 100%;
+    color: silver;
+    font-weight: bold;
+
+
+}
+
+#orangeimg{
+    text-align: center;
+    color: silver;
+    font-weight: bold;
+
+
+}
+.eimg{
+    width: 500px;
+    height: 400px;
+}
+#btna{
+    font-size: x-large;
+    font-weight: bold;
+    font-family:cursive;
+    background-color:rgb(59, 57, 55);
+    color:white;
+    border-radius: 10px;
+    border: solid rgb(133, 113, 3);
+}
+#btna:hover{
+    background-color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btno{
+    font-size: x-large;
+    font-weight: bold;
+    font-family:cursive;
+    background-color:rgb(59, 57, 55);
+    color:white;
+    border-radius: 10px;
+    border: solid rgb(133, 113, 3);
     
 }
 
-@media screen and (max-width: 667px) {
-    img{
-      width: 50%;
-      height: 50%;
-    }
+#btno:hover{
+    background-color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#skills{
+    display: flex;
+    margin-top: 3%;
+
+}
+#ssec{
+    display: flex;
+    margin-right: 3%;
+
+}
+.simg:hover{
+
+    width: 50% ;
+    transition-duration: 0.3s;
+   
+   
+
+}
+
+.simg:hover{
+
+    width: 50% ;
+    transition-duration: 0.3s;
+   
+   
+
+}
+
+.sdiv{
+    text-align: center;
+    color: silver;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.simg{
+
+    width: 40%;
+
+}
+#experience{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#projects{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#hr2{
+
+    color: white;
+    border: solid 3px ;
+    width: 70%;
+}
+
+#hr3{
+
+    color: white;
+    border: solid 3px ;
+    width: 70%;
+}
+
+#hr4{
+
+    color: white;
+    border: solid 3px ;
+    width: 70%;
+}
+a{
+    color: white;
 }
 
 
-@media screen and (max-width: 900px) {
-    img{
-      width: 50%;
-      height: 50%;
-    }
+#hr5{
+
+    color: white;
+    border: solid 3px ;
+    width: 70%;
 }
 
 
+footer{
+    margin-top: 3%;
+    background-color:rgb(59, 57, 55);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    
+}
+#name{
+    font-size: x-large;
+    text-align: center;
+    border-radius: 5px;
+    border: solid gold;
+}
+#mname{
+    font-size: x-large;
+    text-align: center;
+    height: 10rem;
+    border-radius: 5px;
+    border: solid gold;
+
+}
+#fdiv{
+
+}
+#fsec2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.ln{
+    font-size: xx-large;
+    padding-left: 1%;
+}
+#flogo{
+    
+
+}
+#logof{
+height: 14rem;
+}
+#secbutn{
+    text-align: center;
+}
+#fbtno{
+    font-size: x-large;
+    border-radius: 5px;
+    border: solid gold;
+    width:160px;
+
+}
+#fbtno:hover{
+    background-color: rgb(140, 95, 182);
+    
+}
+#cv{
+    margin-top: 2%;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid gold ;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#cv:hover{
+    background-color: rgb(119, 66, 172);
+    width: 70%;
+    transition-duration: 0.3s;
+
+}
+
+@media (min-width: 280px) and (max-width: 1000px){
+    
+  
+   #home{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 45%; 
+    }
+    #Education{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+         margin-left: 80%;
+    }
+    h2{
+         margin-left: 75%; 
+    }
+    hr{
+         margin-left: 55%; 
+    }
+    .eimg{
+        margin-top: 3%;
+    }
+
+    #ssec{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto ;
+        margin-left: 70%; 
+       
+    }
+    .simg{
+        width: 50%;
+        margin-top: 2%;
+    }
+    #experience{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+         margin-left: 80%; 
+
+    }
+    #projects{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+         margin-left: 80%;
+
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-rows:auto auto;
+        margin-left: 80%;
+        background-color: black;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
